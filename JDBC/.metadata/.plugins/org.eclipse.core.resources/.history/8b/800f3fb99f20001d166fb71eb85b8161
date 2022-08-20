@@ -1,0 +1,10 @@
+package com.simplilearn.jdbc.statement;
+
+public class StatementExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

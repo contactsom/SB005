@@ -1,0 +1,45 @@
+
+TODO-
+should we need yto type one by one to for every employee
+
+
+Old Mysql Version can use the new   driver connection?
+
+
+
+
+
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/simplilearn", "root",	"root12345");
+	1. jdbc  :  I am writing JDBC Code
+			Why you are Writing ?
+	2. mysql :  To Connect with MySql
+			How You will connect with MySql ?
+	3. localhost : MySql is installed in my PC
+			Where it is Running ?
+	4. 3306 : It is using this port
+			What is the name of MySql Data base
+	5. simplilearn : is the data base name
+	
+		PLease provide the User/Password also
+		
+		1. root : User Name
+		2. root12345 : This is the password I was given at the time of Installation
+		
+	
+	
+	
+	Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. 
+	The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+	
+	
+	
+	
+	
+ID- 100 AGE- 21 FIRST NAME- JACK Last Name- EDITION
+ID- 101 AGE- 22 FIRST NAME- RUSTY Last Name- COLTONS
+ID- 102 AGE- 23 FIRST NAME- MOHAN Last Name- P
+ID- 103 AGE- 24 FIRST NAME- PALANI Last Name- K
+ID- 104 AGE- 25 FIRST NAME- SHRI Last Name- KANTA
+ID- 105 AGE- 26 FIRST NAME- WILMAN Last Name- KALA
+
+

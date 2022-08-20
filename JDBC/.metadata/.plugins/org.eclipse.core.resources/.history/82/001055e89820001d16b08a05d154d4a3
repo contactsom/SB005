@@ -1,0 +1,74 @@
+Phase 2 :
+
+		1. JDBC      (****)
+		2. Hibernate (*****)
+		3. Servlet 
+		4. JSP
+		
+		
+Installation for JDBC:
+*********************
+
+1. Install the MySql VERSION 8.0.28
+
+	URL : 
+		  windows :	https://downloads.mysql.com/archives/installer/ 
+		  Mac     : https://downloads.mysql.com/archives/community/
+	
+	Download : Windows (x86, 32-bit), MSI Installer
+	
+	While Installing provide the below Information :
+	-----------------------------------------------
+	User     : root 
+	Password : root12345 (Don't provide your own password , keep as same)
+
+	
+2. 	MySQL Workbench UI
+
+	URL : https://downloads.mysql.com/archives/workbench/
+	
+3. Configure the below steps to run the MySql in Windows automatically 
+	
+	Windows – Start and Stop Server
+	Let us understand how it can be done on Windows −
+
+	Open ‘Run’ Window by using Win key + R
+
+	Type ‘services.msc’
+
+	Now search for MySQL service based on the version that is installed.
+
+	Click on ‘stop’, ‘start’ or ‘restart’ the service option.
+
+	
+4*. Download JAR "mysql-connector-java-8.0.28.jar" 
+	
+
+5. JAVA Version :
+		JAVA 1.8 - 1.8.311.11
+	
+* - No action required from lerner , Jar will be shipped through Git	
+
+
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+		
+
+
+		
+		

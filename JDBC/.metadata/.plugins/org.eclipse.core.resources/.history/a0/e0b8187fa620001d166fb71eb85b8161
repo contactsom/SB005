@@ -1,0 +1,11 @@
+
+TODO-
+should we need yto type one by one to for every employee
+
+
+
+
+
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/simplilearn", "root",	"root12345");
+	1. jdbc  :  I am writing JDBC Code
+	2. mysql :  To Connect with MySql

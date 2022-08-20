@@ -1,0 +1,42 @@
+
+TODO-
+should we need yto type one by one to for every employee
+
+
+Old Mysql Version can use the new   driver connection?
+
+
+
+
+
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/simplilearn", "root",	"root12345");
+	1. jdbc  :  I am writing JDBC Code
+			Why you are Writing ?
+	2. mysql :  To Connect with MySql
+			How You will connect with MySql ?
+	3. localhost : MySql is installed in my PC
+			Where it is Running ?
+	4. 3306 : It is using this port
+			What is the name of MySql Data base
+	5. simplilearn : is the data base name
+	
+		PLease provide the User/Password also
+		
+		1. root : User Name
+		2. root12345 : This is the password I was given at the time of Installation
+		
+	
+	
+	Home Work :
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

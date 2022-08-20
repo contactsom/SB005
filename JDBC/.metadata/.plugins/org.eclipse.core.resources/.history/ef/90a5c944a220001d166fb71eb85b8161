@@ -1,0 +1,17 @@
+package com.simplilearn.jdbc.statement;
+
+public class StatementExample {
+
+	public static void main(String[] args) {
+		System.out.println("****** START- StatementExample");
+		
+		try {
+			
+			
+		} catch (Exception e) {
+			
+		}
+		
+	}
+
+}

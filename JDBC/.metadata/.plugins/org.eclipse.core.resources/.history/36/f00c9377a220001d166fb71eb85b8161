@@ -1,0 +1,27 @@
+package com.simplilearn.jdbc.statement;
+
+public class StatementExample {
+
+	public static void main(String[] args) {
+		System.out.println("****** START- StatementExample");
+		
+		try {
+			
+			//1. Load the Driver 
+				Class.forName(null) // class loading 
+				
+				
+			//2. Get the Connection
+			//3. Create the Statement
+			//4. Prepare the Query & execute
+			//5. Close the Resource 
+			
+			
+			
+		} catch (Exception e) {
+			
+		}
+		
+	}
+
+}

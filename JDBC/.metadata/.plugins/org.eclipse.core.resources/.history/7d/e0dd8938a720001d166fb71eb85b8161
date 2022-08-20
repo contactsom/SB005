@@ -1,0 +1,23 @@
+
+TODO-
+should we need yto type one by one to for every employee
+Please It is possible  to prepare already the typed code then explain us every line and show the results.   I prefer spend time more in the architecture web. Thank you.
+
+
+
+
+
+
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/simplilearn", "root",	"root12345");
+	1. jdbc  :  I am writing JDBC Code
+			Why you are Writing ?
+	2. mysql :  To Connect with MySql
+			How You will connect with MySql ?
+	3. localhost : MySql is installed in my PC
+			Where it is Running ?
+	4. 3306 : It is using this port
+			What is the name of MySql Data base
+	5. simplilearn : is the data base name
+	
+	
+			
