@@ -1,0 +1,26 @@
+show databases;
+
+--drop DATABASE simplilearn;
+
+CREATE DATABASE simplilearn;
+
+USE simplilearn;
+
+
+CREATE TABLE STUDENT(
+     STU_ID int NOT NULL PRIMARY KEY,
+     STU_AGE int NOT NULL,
+     STU_FName varchar (255),
+     STU_LName varchar (255)
+     );
+	
+SELECT * FROM STUDENT;
+
+INSERT INTO STUDENT VALUES (200, 11, 'Ali', 'Asghari');
+INSERT INTO STUDENT VALUES (201, 12, 'Subhash', 'Jain');
+INSERT INTO STUDENT VALUES (202, 13, 'Harsh', 'Sharma');
+INSERT INTO STUDENT VALUES (203, 14, 'Kassoum', 'Traore');
+INSERT INTO STUDENT VALUES (204, 15, 'Rohit', 'Verma');
+
+
+UPDATE STUDENT SET STU_FName='rakesh' WHERE id = 200

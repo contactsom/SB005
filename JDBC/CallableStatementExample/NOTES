@@ -1,0 +1,17 @@
+1. Create the Stored Procedure  in SQL Work Bench
+2. Execute it
+3. After successfull execution it should be visible in "Stored procedures" menu
+
+
+
+public interface Statement  {}
+
+public interface PreparedStatement extends Statement {}
+
+public interface CallableStatement extends PreparedStatement {}
+
+CallableStatement > PreparedStatement > Statement
+
+Why ? 
+
+

@@ -1,0 +1,4 @@
+CREATE PROCEDURE `GetAllStudent` ()
+BEGIN
+
+END

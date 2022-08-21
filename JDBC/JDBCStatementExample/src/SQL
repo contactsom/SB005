@@ -26,9 +26,18 @@ INSERT INTO Employees VALUES (105, 26, 'WILMAN', 'KALA');
 
 INSERT INTO Employees VALUES (106, 69, 'anil', 'rawat');
 
-anil1994rawat
+INSERT INTO Employees VALUES (107, 69, 'Kurumuju', 'Dhanalaxmi');
 
 
+
+("INSERT INTO Employees VALUES (109, 39, 'rakesh', 'singh')");
+
+UPDATE Employees SET firstName='rakesh' WHERE id = 109
+
+DELETE from Employees WHERE id = 109
+ 
+
+ 
 
 
 

@@ -3,6 +3,19 @@ TODO-
 should we need yto type one by one to for every employee
 
 
+currently the data are static, 
+what if I want to perform some logic in th data before I sent it to the database, 
+like internal communications, how would that be possible? Do we store them in classes?
+
+
+
+
+
+
+
+
+
+
 Old Mysql Version can use the new   driver connection?
 
 
@@ -42,8 +55,33 @@ Old Mysql Version can use the new   driver connection?
 	
 	
 	
+	I can run query in Mysql but  facing JDBC connection issue. 
+	Need to analyse more on it. Tried few videos but those are not helpful.
+	
+	ava.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.
+	
+	1. JAVA Version
+	2. Make sure /lib folder is created under project
+	3. Jar File should be placed in /lib folder
+	4. Jar is also added in referanced Liberary through Build Path
 	
 	
+
+CRUD Operation :Create, Read, Update and Delete. 
+So far we learn how to perform the CRUD operation using Statement/.
+
+	
+	
+	
+	
+
+
+
+
+
 	
 	
 	
