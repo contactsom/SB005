@@ -1,0 +1,39 @@
+JAVA Version 1.8
+1. Create the JAVA Project
+2. Create the lib folder 
+3. Place the XML/Annotation Jar's in to /lib folder 
+4. Add these JAR's in to Build path
+5. Place the Hibernate Configuration i.e "hibernate.cfg.xml" in to */src folder 
+6. Create the Package "com.simplilearn.hibernate" and placed the...
+	6.1 POJO/ENTITY i.e Customer.java
+	6.2 Customer.hbm.xml
+	
+	1-First Record
+	2-Second Record
+	
+	
+	
+	select * from customers;
+	
+	Hibernate: 
+	insert into customers (Name, Email, Phone, City, Bal, Cid) values (?, ?, ?, ?, ?, ?)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
