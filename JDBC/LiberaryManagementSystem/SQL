@@ -1,0 +1,25 @@
+
+USE simplilearn;
+
+CREATE TABLE BOOKS(
+     BOOK_ID int NOT NULL PRIMARY KEY,
+     BOOK_NAME varchar (255) NOT NULL,
+     BOOK_AUTHOR varchar (255),
+     BOOK_PUBLICATION varchar (255),
+     BOOK_PRICE int,
+     BOOK_ISBN int     
+     );
+     
+	INSERT INTO BOOKS VALUES (?,?,?,?,?,?);
+	
+	SELECT * FROM BOOKS WHERE BOOK_ID = ?
+
+CREATE TABLE USER(
+     USER_NAME varchar (255) NOT NULL,
+     USER_PASS varchar (255)     
+     );
+     
+   
+INSERT INTO USER VALUES ('subhash','passsubhash')
+
+SELECT * FROM USER WHERE USER_NAME = ? AND USER_PASS= ?
