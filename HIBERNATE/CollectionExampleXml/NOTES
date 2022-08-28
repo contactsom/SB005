@@ -1,0 +1,21 @@
+
+private List<String> empemails;	
+	
+		<list name="empemails" table="EMPLOYEE_EMAILS">
+			<key column="empid"/>
+			<index column="idx"/>
+			<element column="EMAILS" type="string"/>
+		</list>
+		
+private List<Integer> empmarks;
+
+		<bag name="empmarks" table="EMPLOYEE_MARKS">
+			<key column="empid"/>
+			<element column="MARKS" type="int"/>		
+		</bag>
+		
+		
+		
+		
+		if I have list< double> I use the key list?
+		

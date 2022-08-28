@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.simplilearn.collections">
+	
+	<class name="Employee" table="EMPLOYEE_DETAILS">
+
+		<id name="empid" column="EMPLOYEE_ID" type="int">	
+		<generator class="increment" />	
+		</id>		
+		
+		<property name="empname"  column="EMPLOYEE_NAME"/>
+		<property name="empdob" column="EMPLOYEE_DOB" />
+		<property name="empqulification" column="EMPLOYEE_QUALIFICATION"/>
+		
+		<array name="empcourse" table="EMPLOYEE_COURSE">
+			<key column="empid"/>
+			<index column="idx"/>
+			<element column="COURSE" type="string"/>
+		</array>
+		
+		<list name="empemails" table="EMPLOYEE_EMAILS">
+			<key column="empid"/>
+			<index column="idx"/>
+			<element column="EMAILS" type="string"/>
+		</list>
+		
+		<bag name="empmarks" table="EMPLOYEE_MARKS">
+			<key column="empid"/>
+			<element column="MARKS" type="int"/>		
+		</bag>
+		
+		<set name="empphone" table="EMPLOYEE_PHONE">
+			<key column="empid"/>
+			<element column="PHONES" type="long"/>	
+		</set>
+		
+		<map name="empreferance" table="EMPLOYEE_REFERANCE">
+			<key column="empid"/>
+			<index column="REF_NAME" type="string"/>
+			<element column="REF_PHONE" type="long"/>
+		</map>
+		
+	</class>
+</hibernate-mapping>
+
+

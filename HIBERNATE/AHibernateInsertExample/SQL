@@ -1,0 +1,19 @@
+USE simplilearn;
+select * from CUSTOMER_INFO;
+
+
+
+<property name="format_sql">true</property>
+    insert 
+    into
+        CUSTOMER_INFO
+        (bal, city, email, name, phone) 
+    values
+        (?, ?, ?, ?, ?)
+        
+        
+        
+        
+<property name="format_sql">false</property> 
+       
+    Hibernate: insert into CUSTOMER_INFO (bal, city, email, name, phone) values (?, ?, ?, ?, ?)

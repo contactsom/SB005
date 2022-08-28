@@ -66,4 +66,6 @@ CREATE TABLE USER(
 SELECT * FROM USER WHERE USER_NAME = 'subhash' AND USER_PASS= 'passsubhash'
 
 
-
+select * from CUSTOMER_INFO;
+select * from  STUDENT_INFO;
+select * from STUDENT_RECORDS;
