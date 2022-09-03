@@ -1,0 +1,5 @@
+
+USE simplilearn;
+
+select * from STUDENT_DATA;
+select * from ADDRESS_DATA;

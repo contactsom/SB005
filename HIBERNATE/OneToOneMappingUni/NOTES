@@ -1,0 +1,55 @@
+
+Customer & Bank Account 
+
+1. Customer have one bank account = true
+2. Customer have many bank account = true
+3. Once bank have many Customer = True
+4. One Citizen have one passport = True
+5. Multiple customer have one bank account = True (Joint Account)
+
+Customer Product
+Customer can add the product in cart =
+
+Restriction :
+Customer can not delete the product from cart =
+
+
+Mapping :
+	1. One to One Mapping [ Uni & Bi]
+	2. Once to Many Mapping [ Uni & Bi]
+	3. Many to one Mapping  [ Uni & Bi]
+	4. Many to Many Mapping  [ Uni & Bi]
+
+Reverse Mapping 
+
+1. Customer have one bank account = true => From Customer to  account => Uni directional 
+2. This Bank account have only one customer = true => From account to customer => Bi-Directional 
+
+
+
+***********************
+1. Student - Address 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

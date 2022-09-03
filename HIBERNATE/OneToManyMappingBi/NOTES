@@ -1,0 +1,58 @@
+
+One to many Bi-Directional Mapping Using XML
+
+* Customer --- Order
+
+UNI...
+One Customer can have Many Order = True
+
+Bi...
+Many Order belongs to One Customer = True
+
+--------------
+
+One Customer can have Many Order 
+
+
+Customer 
+	Order 
+	Order
+	Order
+	Order	
+	Order
+	
+	---------
+	
+	
+Customer 
+	Set<Order>
+	OR
+	List<Order>
+	
+	
+	
+	
+	
+	
+	One to many Bi
+	
+	Reverse : 
+		many to one 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

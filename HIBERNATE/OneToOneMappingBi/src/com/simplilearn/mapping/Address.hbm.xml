@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.simplilearn.mapping">
+	
+	<class name="Address" table="BI_ADDRESS_DATA">
+
+		<id name="aid" column="ADDRESS_ID" type="int">	
+		<generator class="increment" />	
+		</id>		
+		
+		<property name="street"  column="ADDRESS_STREET"/>
+		<property name="city" column="ADDRESS_CITY" />
+		<property name="state" column="ADDRESS_STATE" />
+		
+		<one-to-one name="student" class="Student" />
+		
+	</class>
+</hibernate-mapping>
+
+

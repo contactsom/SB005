@@ -1,0 +1,5 @@
+select * from A_STUDENT_DATA;
+select * from A_ADDRESS_DATA;
+
+
+
