@@ -1,0 +1,5 @@
+USE simplilearn;
+
+select * from  BI_CUSTOMER_DETAILS;
+select * from  BI_ACCOUNT_DETAILS;
+select * from  CUSTOMER_ACCOUNT;

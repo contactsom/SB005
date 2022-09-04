@@ -1,0 +1,8 @@
+Many to Many Mapping - Bi Using XML
+
+Account - Customer 
+1. Many Account have Many Customer - 
+2. Many Customer Have Many Account
+
+
+Many to Many is the combination of one to one - true

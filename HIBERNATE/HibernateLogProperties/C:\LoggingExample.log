@@ -1,0 +1,74 @@
+20:42:22,213  INFO Environment:456 - Hibernate 3.0rc1
+20:42:22,216  INFO Environment:469 - hibernate.properties not found
+20:42:22,217  INFO Environment:502 - using CGLIB reflection optimizer
+20:42:22,218  INFO Environment:532 - using JDK 1.4 java.sql.Timestamp handling
+20:42:22,219  INFO Configuration:1228 - configuring from resource: /hibernate.cfg.xml
+20:42:22,219  INFO Configuration:1199 - Configuration resource: /hibernate.cfg.xml
+20:42:22,306  INFO Configuration:439 - Mapping resource: com/simplilearn/mapping/Customer.hbm.xml
+20:42:22,393  INFO HbmBinder:256 - Mapping class: com.simplilearn.mapping.Customer -> PLOG_CUSTOMER_DETAILS
+20:42:22,406  INFO Configuration:1340 - Configured SessionFactory: null
+20:42:22,407  INFO Configuration:844 - processing extends queue
+20:42:22,407  INFO Configuration:848 - processing collection mappings
+20:42:22,407  INFO Configuration:857 - processing association property references
+20:42:22,407  INFO Configuration:884 - processing foreign key constraints
+20:42:22,465  INFO Dialect:89 - Using dialect: org.hibernate.dialect.MySQLDialect
+20:42:22,470  INFO SettingsFactory:87 - Maximum outer join fetch depth: 2
+20:42:22,472  INFO SettingsFactory:90 - Default batch fetch size: 1
+20:42:22,472  INFO SettingsFactory:94 - Generate SQL with comments: disabled
+20:42:22,472  INFO SettingsFactory:98 - Order SQL updates by primary key: disabled
+20:42:22,473  INFO SettingsFactory:273 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+20:42:22,474  INFO ASTQueryTranslatorFactory:21 - Using ASTQueryTranslatorFactory
+20:42:22,475  INFO SettingsFactory:106 - Query language substitutions: {}
+20:42:22,477  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+20:42:22,477  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+20:42:22,477  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+20:42:22,565  INFO DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/simplilearn
+20:42:22,566  INFO DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+20:42:23,342  INFO SettingsFactory:148 - JDBC batch size: 15
+20:42:23,343  INFO SettingsFactory:151 - JDBC batch updates for versioned data: disabled
+20:42:23,344  INFO SettingsFactory:156 - Scrollable result sets: enabled
+20:42:23,344  INFO SettingsFactory:164 - JDBC3 getGeneratedKeys(): enabled
+20:42:23,346  INFO TransactionFactoryFactory:31 - Using default transaction strategy (direct JDBC transactions)
+20:42:23,346  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+20:42:23,346  INFO SettingsFactory:176 - Automatic flush during beforeCompletion(): disabled
+20:42:23,346  INFO SettingsFactory:179 - Automatic session close at end of transaction: disabled
+20:42:23,347  INFO SettingsFactory:260 - Cache provider: org.hibernate.cache.EhCacheProvider
+20:42:23,349  INFO SettingsFactory:187 - Second-level cache: enabled
+20:42:23,349  INFO SettingsFactory:192 - Optimize cache for minimal puts: disabled
+20:42:23,349  INFO SettingsFactory:199 - Structured second-level cache entries: enabled
+20:42:23,349  INFO SettingsFactory:203 - Query cache: disabled
+20:42:23,349  INFO SettingsFactory:210 - Echoing all SQL to stdout
+20:42:23,349  INFO SettingsFactory:214 - Statistics: disabled
+20:42:23,349  INFO SettingsFactory:218 - Deleted entity synthetic identifier rollback: disabled
+20:42:23,350  INFO SettingsFactory:232 - Default entity-mode: pojo
+20:42:23,610  INFO SessionFactoryImpl:140 - building session factory
+20:42:23,613  WARN Configurator:126 - No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/Users/om/SB005/HIBERNATE/HibernateLogProperties/lib/ehcache-1.1.jar!/ehcache-failsafe.xml
+20:42:23,729  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+20:42:23,730  INFO Dialect:89 - Using dialect: org.hibernate.dialect.MySQLDialect
+20:42:23,731  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+20:42:23,731  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+20:42:23,731  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+20:42:23,731  INFO DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/simplilearn
+20:42:23,731  INFO DriverManagerConnectionProvider:86 - connection properties: {user=root, password=****}
+20:42:23,732  INFO SchemaUpdate:105 - Running hbm2ddl schema update
+20:42:23,732  INFO SchemaUpdate:117 - fetching database metadata
+20:42:23,831  INFO SchemaUpdate:133 - updating schema
+20:42:23,832  INFO Configuration:844 - processing extends queue
+20:42:23,833  INFO Configuration:848 - processing collection mappings
+20:42:23,833  INFO Configuration:857 - processing association property references
+20:42:23,833  INFO Configuration:884 - processing foreign key constraints
+20:42:23,858  INFO DatabaseMetadata:85 - table not found: PLOG_CUSTOMER_DETAILS
+20:42:23,865  INFO DatabaseMetadata:85 - table not found: PLOG_CUSTOMER_DETAILS
+20:42:23,877  INFO SchemaUpdate:153 - schema update complete
+20:42:23,879  INFO DriverManagerConnectionProvider:147 - cleaning up connection pool: jdbc:mysql://localhost:3306/simplilearn
+20:42:23,879  INFO SessionFactoryImpl:366 - Checking 0 named queries
+20:42:23,900 DEBUG StringType:59 - binding 'Rajive' to parameter: 1
+20:42:23,900 DEBUG StringType:59 - binding 'rajive@gmail.com' to parameter: 2
+20:42:23,906 DEBUG DateType:59 - binding '04 September 2022' to parameter: 3
+20:42:23,923 DEBUG LongType:59 - binding '12345' to parameter: 4
+20:42:23,924 DEBUG IntegerType:59 - binding '1' to parameter: 5
+20:42:23,924 DEBUG StringType:59 - binding 'Indu' to parameter: 1
+20:42:23,924 DEBUG StringType:59 - binding 'indu@gmail.com' to parameter: 2
+20:42:23,925 DEBUG DateType:59 - binding '04 September 2022' to parameter: 3
+20:42:23,925 DEBUG LongType:59 - binding '22345' to parameter: 4
+20:42:23,925 DEBUG IntegerType:59 - binding '2' to parameter: 5
