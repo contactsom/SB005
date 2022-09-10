@@ -1,0 +1,22 @@
+	Step1 : Startup TIme . Web.XML is getting loaded 
+Step2 : Welcome file identified 
+		<welcome-file>student.jsp</welcome-file>
+Step 3: Tomcat will look in to student.jsp
+Step 4: Found <form action="<%= request.getContentType() %>/StudentServlet" method="get">
+Step 5 : Need to visit again with the "/StudentServlet" in to web.xml and serch for <url-pattern>
+Step 6: Founs the <url-pattern>
+Step 7: Find the <servlet-name> for this <url-pattern>
+Step 8: Found <servlet-name>StudentServlet1</servlet-name> at line no 17
+Step 9: Find the  "StudentServlet1" inside the <servlet> tag
+Step 10:  Found <servlet-name>StudentServlet1</servlet-name> at line number 12
+Step 11:  Get the Servlet name against the StudentServlet1
+Step 12 : Found <servlet-class>com.simplilearn.servlet.StudentServlet</servlet-class>  
+Step 13: Went in to servlet java class
+
+
+Welcome File URL:
+	http://localhost:8080/MyHttpServlet/
+	
+	REQUEST:
+	
+	http://localhost:8080/MyHttpServlet/StudentServlet

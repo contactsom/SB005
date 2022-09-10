@@ -1,0 +1,9 @@
+
+/studentServlet
+
+
+http://localhost:8080/StudentRegFromHttpServlet/studentServlet
+
+
+
+?firstName=OM&lastName=JHA&emailId=abc%40simplilearn.com&password=12345
