@@ -1,0 +1,5 @@
+
+
+<%!	%> - Declarative tag 
+<%	%> - Scriptlet tag 
+<%= %> - JSP Expression tag
