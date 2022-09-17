@@ -1,0 +1,158 @@
+
+
+URL : https://www.simplilearn.com/
+URL : https://www.simplilearn.com/#post-graduate-programs
+URI : #post-graduate-programs
+https://www.simplilearn.com/ai-for-decision-making-program
+https://www.simplilearn.com/pgp-business-analysis-certification-training-course
+
+
+
+USE simplilearn;
+
+CREATE TABLE STUDENT_PROJECT(
+     STU_FirstName varchar (255),
+     STU_LastName varchar (255),
+     STU_Email varchar (255),
+     STU_Password varchar (255)
+     );
+	
+select * from STUDENT_PROJECT;
+
+
+
+
+
+
+Assignment :
+	
+
+● Set up a master list of all the subjects for all the classes
+● Set up a master list of all the teachers
+● Set up a master list of all the classes
+● Assign classes for subjects from the master list
+● Assign teachers to a class for a subject (A teacher can be assigned to different classes for different subjects)
+● Get a master list of students (Each student must be assigned to a single class)
+     
+There will be an option to view a Class Report which will show all the information about the class, 
+such as the list of students, subjects, and teachers
+
+TABLE :
+
+SUBJECT - POJO
+	SUBJECT_ID, SUBJECT_NAME 
+
+TEACHERS - POJO
+	TEACHERS_ID,TEACHERS_NAME
+
+CLASS - POJO
+	CLASS_ID CLASS_NAME
+
+STUDENT - POJO
+	STUDENT_ID,STUDENT_NAME
+	 
+------------------
+MAPPING 
+	CLASS AND  SUBJECT
+
+STUDENT_SAMASTER	
+CLASS_NAME SUBJECT_NAME  TEACHERS_NAME STUDENT_NAME
+B.Tech        JAVA			null			null
+	
+CREATE STATEMET [INSERT]
+
+LIST<TEACHER> = SELECT * FORM TEACHERS
+LIST<CLASS> = SELECT * FORM CLASS
+LIST<SUBJECT> = SELECT * FORM SUBJECT
+
+GET ONE TEACHER 
+
+STUDENT_SAMASTER SM = NEW STUDENT_SAMASTER();
+SM.setClass();
+SM.setSubject();
+save the SM in to STUDENT_SAMASTER
+Assign classes for subjects 
+
+
+
+Assign teachers to a class for a subject
+
+STUDENT_SAMASTER SM = NEW STUDENT_SAMASTER();
+SM.setClass();
+SM.setSubject();
+SM.setTeacher();
+
+
+Get a master list of students (Each student must be assigned to a single class)
+Select * from STUDENT_SAMASTER.
+
+if(CLASS_NAME!=null && STUDENT_NAME!=null )
+{
+
+}
+
+***********************************************************************************************
+
+The website needs to have the following features:
+● A search form in the homepage to allow entry of travel details, like the date of travel, source, destination, and the number of persons.
+● Based on the travel details entered, it will show the available flights with their ticket prices.
+● Once a person selects a flight to book, they will be taken to a register page where they must fill in their personal details. 
+In the next page, they are shown the flight details of the flight that they are booking, and the payment is done via a dummy 
+payment gateway. 
+On completion of the payment, they are shown a confirmation page with the details of the booking.   
+ 
+
+ Table - Travel_Details
+ 
+ TravelID,  Dateoftravel, source, destination, numberofpersons, ticketprices
+ 
+ Person REgistration Page 
+ 	Save the data in DB
+
+***********************************************************************************************
+	
+	
+	
+****************************************************************
+	
+Core JAVA [70%]
+	Business Logic
+		All the Concept 
+		You should bale to code on String, Array
+		https://github.com/contactsom/interviewprogram
+		2 hours ,2 Program, everyday 
+		
+Framework [20%]
+		Fronend 
+			Angular/React
+		Backend 
+			Spring, Spring Boot, Hibernate
+Devops[10%]
+		CI/CD, git , Docker 
+	
+
+****************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
